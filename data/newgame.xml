@@ -1,0 +1,404 @@
+<engine.GameAuthoringData>
+  <managerMediator class="engine.ManagerTypeMediator">
+    <allManagers>
+      <engine.settings.GameModeTypeManager>
+        <observers/>
+        <data class="engine.observer.ObservableMapProperty">
+          <observers/>
+          <listeners>
+            <null/>
+          </listeners>
+          <property class="map"/>
+        </data>
+      </engine.settings.GameModeTypeManager>
+      <engine.tower.TowerTypeManager>
+        <observers/>
+        <data class="engine.observer.ObservableMapProperty">
+          <observers/>
+          <listeners>
+            <null/>
+          </listeners>
+          <property class="map">
+            <entry>
+              <int>0</int>
+              <engine.tower.TowerType>
+                <name class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="string">New Tower (0)</property>
+                </name>
+                <imagePath class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="string">Images/penguin.jpg</property>
+                </imagePath>
+                <size class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">1.0</property>
+                </size>
+                <id>0</id>
+                <weapons class="engine.observer.ObservableListProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="list">
+                    <int>0</int>
+                  </property>
+                </weapons>
+                <abilities class="engine.observer.ObservableListProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="list"/>
+                </abilities>
+                <upgrades class="engine.observer.ObservableListProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="list"/>
+                </upgrades>
+                <cost class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">100.0</property>
+                </cost>
+                <sellAmount class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">50.0</property>
+                </sellAmount>
+                <unlockLevel class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="int">0</property>
+                </unlockLevel>
+              </engine.tower.TowerType>
+            </entry>
+          </property>
+        </data>
+        <upgrades/>
+      </engine.tower.TowerTypeManager>
+      <engine.weapon.WeaponTypeManager>
+        <observers/>
+        <data class="engine.observer.ObservableMapProperty">
+          <observers/>
+          <listeners>
+            <null/>
+          </listeners>
+          <property class="map">
+            <entry>
+              <int>0</int>
+              <engine.weapon.WeaponType>
+                <name class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="string">New Weapon (0)</property>
+                </name>
+                <imagePath class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="string">penguin.jpg</property>
+                </imagePath>
+                <size class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">1.0</property>
+                </size>
+                <id>0</id>
+                <targets class="engine.observer.ObservableListProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="list"/>
+                </targets>
+                <fireRate class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">15.0</property>
+                </fireRate>
+                <trajectory class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="string">Straight</property>
+                </trajectory>
+                <effect class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="string"></property>
+                </effect>
+                <speed class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">10.0</property>
+                </speed>
+                <range class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">50.0</property>
+                </range>
+              </engine.weapon.WeaponType>
+            </entry>
+          </property>
+        </data>
+      </engine.weapon.WeaponTypeManager>
+      <engine.ability.AbilityTypeManager>
+        <observers/>
+        <data class="engine.observer.ObservableMapProperty">
+          <observers/>
+          <listeners/>
+          <property class="map"/>
+        </data>
+      </engine.ability.AbilityTypeManager>
+      <engine.path.PathTypeManager>
+        <observers/>
+        <data class="engine.observer.ObservableMapProperty">
+          <observers/>
+          <listeners>
+            <null/>
+          </listeners>
+          <property class="map">
+            <entry>
+              <int>0</int>
+              <engine.path.PathType>
+                <name class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="string">New Path (0)</property>
+                </name>
+                <imagePath class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="string">blacksquare.png</property>
+                </imagePath>
+                <size class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">1.0</property>
+                </size>
+                <id>0</id>
+                <type class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners/>
+                  <property class="string">direct</property>
+                </type>
+                <coordinates class="engine.observer.ObservableListProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="list"/>
+                </coordinates>
+                <gridRows class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="int">10</property>
+                </gridRows>
+                <gridColumns class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="int">10</property>
+                </gridColumns>
+              </engine.path.PathType>
+            </entry>
+          </property>
+        </data>
+      </engine.path.PathTypeManager>
+      <engine.enemy.EnemyTypeManager>
+        <observers/>
+        <data class="engine.observer.ObservableMapProperty">
+          <observers/>
+          <listeners>
+            <null/>
+          </listeners>
+          <property class="map">
+            <entry>
+              <int>0</int>
+              <engine.enemy.EnemyType>
+                <name class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="string">New Enemy (0)</property>
+                </name>
+                <imagePath class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="string">Images/butterfly.png</property>
+                </imagePath>
+                <size class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">1.0</property>
+                </size>
+                <id>0</id>
+                <speed class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">1.0</property>
+                </speed>
+                <health class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">10.0</property>
+                </health>
+                <damage class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">2.0</property>
+                </damage>
+                <score class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">10.0</property>
+                </score>
+                <money class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">20.0</property>
+                </money>
+                <collisionEffect class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="string"></property>
+                </collisionEffect>
+              </engine.enemy.EnemyType>
+            </entry>
+          </property>
+        </data>
+      </engine.enemy.EnemyTypeManager>
+      <engine.level.LevelTypeManager>
+        <observers/>
+        <data class="engine.observer.ObservableMapProperty">
+          <observers/>
+          <listeners>
+            <null/>
+          </listeners>
+          <property class="map">
+            <entry>
+              <int>0</int>
+              <engine.level.LevelType>
+                <name class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="string">Level (0)</property>
+                </name>
+                <imagePath class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="string">Images.blacksquare.jpg</property>
+                </imagePath>
+                <size class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">1.0</property>
+                </size>
+                <id>0</id>
+                <enemyCounts class="engine.observer.ObservableMapProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="map"/>
+                </enemyCounts>
+                <rewardHealth class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">0.0</property>
+                </rewardHealth>
+                <rewardMoney class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">200.0</property>
+                </rewardMoney>
+                <rewardScore class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">200.0</property>
+                </rewardScore>
+                <durationInSeconds class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">1.0</property>
+                </durationInSeconds>
+              </engine.level.LevelType>
+            </entry>
+          </property>
+        </data>
+      </engine.level.LevelTypeManager>
+    </allManagers>
+  </managerMediator>
+</engine.GameAuthoringData>

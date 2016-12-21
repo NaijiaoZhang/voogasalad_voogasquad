@@ -1,0 +1,96 @@
+.grid {
+	-fx-background-color: white;
+	-fx-border-color: black;
+	-fx-border-width: 3.0;
+}
+
+.root {
+	-fx-background-image: url(../../../Images/steinsgate.jpg);
+	-fx-background-position: center center;
+}
+
+.dragDropPane{
+	-fx-min-width: 300;
+	-fx-border-width: 3.0;
+	-fx-padding: 10 0 0 0;
+    -fx-border-insets: 0px;
+    -fx-background-insets: 0px;
+    -fx-background-color: #48795D;
+}
+
+/* tab pane default */
+.tab-pane {
+    my-tab-header-background: derive(-fx-text-box-border, 30%) ;
+}
+
+.tab {
+	-fx-background-color: #8da899;
+}
+
+.tab-label{
+	-fx-text-fill: white;
+}
+.towersScrollPane > .viewport{
+	-fx-background-color: transparent;
+}
+
+.towersScrollPane {
+	-fx-background-color: #8da899;
+	-fx-border-color: black;
+	-fx-border-width: 2.0;
+}
+
+.tab-pane > .tab-header-area > .tab-header-background {
+     -fx-background-color: -fx-outer-border, -fx-text-box-border, 
+        linear-gradient(from 0px 0px to 0px 5px, -fx-text-box-border, my-tab-header-background) ;
+        -fx-opacity:0; 
+        
+}
+
+.label{
+	-fx-text-fill: white;
+	
+}
+
+.ipad-dark-grey {
+    -fx-background-color: 
+        linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),
+        linear-gradient(#020b02, #3a3a3a),
+        linear-gradient(#9d9e9d 0%, #6b6a6b 20%, #343534 80%, #242424 100%),
+        linear-gradient(#8a8a8a 0%, #6b6a6b 20%, #343534 80%, #262626 100%),
+        linear-gradient(#777777 0%, #606060 50%, #505250 51%, #2a2b2a 100%);
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-background-radius: 9,8,5,4,3;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+.ipad-dark-grey Text {
+    -fx-effect: dropshadow( one-pass-box , black , 0, 0.0 , 0 , -1 );
+}
+
+
+.scoreLabel {
+	-fx-font-size: 20;
+	-fx-text-fill: white;
+}
+
+.galleryPane {
+	-fx-background-color: #000000;
+}
+
+.gridGUI {
+	-fx-background-image: url(../../../Images/BalloonBackground.jpg);
+	-fx-background-position: center center;
+	-fx-background-repeat: stretch;
+}
+
+
+.statsHBox {
+	-fx-background-color: #8da899;
+}
+

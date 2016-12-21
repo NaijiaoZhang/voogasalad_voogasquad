@@ -1,0 +1,2216 @@
+<engine.GameAuthoringData>
+  <managerMediator class="engine.ManagerTypeMediator">
+    <allManagers>
+      <entry>
+        <java-class>engine.path.PathManager</java-class>
+        <engine.path.PathTypeManager>
+          <observers>
+            <engine.ManagerTypeMediator reference="../../../../.."/>
+          </observers>
+          <data class="engine.observer.ObservableMapProperty">
+            <observers/>
+            <listeners>
+              <null/>
+            </listeners>
+            <property class="map">
+              <entry>
+                <int>0</int>
+                <engine.path.PathType>
+                  <name class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">New Path (0)</property>
+                  </name>
+                  <imagePath class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">Images/blacksquare.png</property>
+                  </imagePath>
+                  <size class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">1.0</property>
+                  </size>
+                  <sound class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="string">Music/DopeBeats.mp3</property>
+                  </sound>
+                  <id>0</id>
+                  <type class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="engine.path.PathOption">FREE</property>
+                  </type>
+                  <coordinates class="engine.observer.ObservableListProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="list">
+                      <engine.path.GridCoordinate>
+                        <x>4</x>
+                        <y>1</y>
+                      </engine.path.GridCoordinate>
+                      <engine.path.GridCoordinate>
+                        <x>4</x>
+                        <y>7</y>
+                      </engine.path.GridCoordinate>
+                    </property>
+                  </coordinates>
+                  <gridRows class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="int">10</property>
+                  </gridRows>
+                  <gridColumns class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="int">10</property>
+                  </gridColumns>
+                </engine.path.PathType>
+              </entry>
+            </property>
+          </data>
+          <availablePaths class="engine.observer.ObservableListProperty">
+            <observers/>
+            <listeners>
+              <null/>
+            </listeners>
+            <property class="list">
+              <int>0</int>
+            </property>
+          </availablePaths>
+        </engine.path.PathTypeManager>
+      </entry>
+      <entry>
+        <java-class>engine.level.LevelManager</java-class>
+        <engine.level.LevelTypeManager>
+          <observers>
+            <engine.ManagerTypeMediator reference="../../../../.."/>
+          </observers>
+          <data class="engine.observer.ObservableMapProperty">
+            <observers/>
+            <listeners>
+              <null/>
+            </listeners>
+            <property class="map">
+              <entry>
+                <int>0</int>
+                <engine.level.LevelType>
+                  <name class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">Level (0)</property>
+                  </name>
+                  <imagePath class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">Images/blacksquarejpg</property>
+                  </imagePath>
+                  <size class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">1.0</property>
+                  </size>
+                  <sound class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="string">Music/DopeBeats.mp3</property>
+                  </sound>
+                  <id>0</id>
+                  <waves>
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="engine.level.wave.WaveTypeManager">
+                      <observers/>
+                      <data class="engine.observer.ObservableMapProperty">
+                        <observers/>
+                        <listeners/>
+                        <property class="map">
+                          <entry>
+                            <int>0</int>
+                            <engine.level.wave.WaveType>
+                              <name class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="string">New Wave (0)</property>
+                              </name>
+                              <imagePath class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="string">Images/penguin.jpg</property>
+                              </imagePath>
+                              <size class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="double">1.0</property>
+                              </size>
+                              <sound class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners/>
+                                <property class="string">Music/DopeBeats.mp3</property>
+                              </sound>
+                              <id>0</id>
+                              <enemyID class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="int">0</property>
+                              </enemyID>
+                              <pathID class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="int">0</property>
+                              </pathID>
+                              <enemyCount class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="int">5</property>
+                              </enemyCount>
+                              <delay class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="double">0.0</property>
+                              </delay>
+                              <frequency class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="double">1.0</property>
+                              </frequency>
+                            </engine.level.wave.WaveType>
+                          </entry>
+                          <entry>
+                            <int>1</int>
+                            <engine.level.wave.WaveType>
+                              <name class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="string">New Wave (1)</property>
+                              </name>
+                              <imagePath class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="string">Images/penguin.jpg</property>
+                              </imagePath>
+                              <size class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="double">1.0</property>
+                              </size>
+                              <sound class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners/>
+                                <property class="string">Music/DopeBeats.mp3</property>
+                              </sound>
+                              <id>1</id>
+                              <enemyID class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="int">1</property>
+                              </enemyID>
+                              <pathID class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="int">0</property>
+                              </pathID>
+                              <enemyCount class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="int">3</property>
+                              </enemyCount>
+                              <delay class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="double">10.0</property>
+                              </delay>
+                              <frequency class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="double">0.0</property>
+                              </frequency>
+                            </engine.level.wave.WaveType>
+                          </entry>
+                        </property>
+                      </data>
+                    </property>
+                  </waves>
+                  <rewardHealth class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">0.0</property>
+                  </rewardHealth>
+                  <rewardMoney class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">200.0</property>
+                  </rewardMoney>
+                  <rewardScore class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">200.0</property>
+                  </rewardScore>
+                  <durationInSeconds class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">1.0</property>
+                  </durationInSeconds>
+                  <time class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="double">0.0</property>
+                  </time>
+                  <paths class="engine.observer.ObservableListProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="list">
+                      <int>0</int>
+                      <int>1</int>
+                    </property>
+                  </paths>
+                </engine.level.LevelType>
+              </entry>
+              <entry>
+                <int>1</int>
+                <engine.level.LevelType>
+                  <name class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">Level (1)</property>
+                  </name>
+                  <imagePath class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">Images/blacksquarejpg</property>
+                  </imagePath>
+                  <size class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">1.0</property>
+                  </size>
+                  <sound class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="string">Music/DopeBeats.mp3</property>
+                  </sound>
+                  <id>1</id>
+                  <waves>
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="engine.level.wave.WaveTypeManager">
+                      <observers/>
+                      <data class="engine.observer.ObservableMapProperty">
+                        <observers/>
+                        <listeners/>
+                        <property class="map">
+                          <entry>
+                            <int>2</int>
+                            <engine.level.wave.WaveType>
+                              <name class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="string">New Wave (2)</property>
+                              </name>
+                              <imagePath class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="string">Images/penguin.jpg</property>
+                              </imagePath>
+                              <size class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="double">1.0</property>
+                              </size>
+                              <sound class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners/>
+                                <property class="string">Music/DopeBeats.mp3</property>
+                              </sound>
+                              <id>2</id>
+                              <enemyID class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="int">0</property>
+                              </enemyID>
+                              <pathID class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="int">0</property>
+                              </pathID>
+                              <enemyCount class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="int">0</property>
+                              </enemyCount>
+                              <delay class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="double">0.0</property>
+                              </delay>
+                              <frequency class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="double">0.0</property>
+                              </frequency>
+                            </engine.level.wave.WaveType>
+                          </entry>
+                          <entry>
+                            <int>3</int>
+                            <engine.level.wave.WaveType>
+                              <name class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="string">New Wave (3)</property>
+                              </name>
+                              <imagePath class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="string">Images/penguin.jpg</property>
+                              </imagePath>
+                              <size class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="double">1.0</property>
+                              </size>
+                              <sound class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners/>
+                                <property class="string">Music/DopeBeats.mp3</property>
+                              </sound>
+                              <id>3</id>
+                              <enemyID class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="int">0</property>
+                              </enemyID>
+                              <pathID class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="int">0</property>
+                              </pathID>
+                              <enemyCount class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="int">2</property>
+                              </enemyCount>
+                              <delay class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="double">7.0</property>
+                              </delay>
+                              <frequency class="engine.observer.ObservableObjectProperty">
+                                <observers/>
+                                <listeners>
+                                  <null/>
+                                </listeners>
+                                <property class="double">1.0</property>
+                              </frequency>
+                            </engine.level.wave.WaveType>
+                          </entry>
+                        </property>
+                      </data>
+                    </property>
+                  </waves>
+                  <rewardHealth class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">0.0</property>
+                  </rewardHealth>
+                  <rewardMoney class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">200.0</property>
+                  </rewardMoney>
+                  <rewardScore class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">200.0</property>
+                  </rewardScore>
+                  <durationInSeconds class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">1.0</property>
+                  </durationInSeconds>
+                  <time class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="double">0.0</property>
+                  </time>
+                  <paths class="engine.observer.ObservableListProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="list">
+                      <int>0</int>
+                      <int>1</int>
+                    </property>
+                  </paths>
+                </engine.level.LevelType>
+              </entry>
+            </property>
+          </data>
+          <levelEffectManager class="engine.effect.EffectTypeManager">
+            <observers>
+              <engine.ManagerTypeMediator reference="../../../../../.."/>
+            </observers>
+            <data class="engine.observer.ObservableMapProperty">
+              <observers/>
+              <listeners/>
+              <property class="map"/>
+            </data>
+            <annotatedClassMethods>
+              <entry>
+                <java-class>gameplayer.model.enemy.Enemy</java-class>
+                <list>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getImage</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setHealth</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setImage</name>
+                    <parameter-types>
+                      <class>java.lang.String</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getHealth</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setxDirection</name>
+                    <parameter-types>
+                      <class>int</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getxDirection</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getY</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setyDirection</name>
+                    <parameter-types>
+                      <class>int</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getX</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getMovingSpeed</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getyDirection</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setMovingSpeed</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getCurrentCell</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getName</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setX</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setY</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                </list>
+              </entry>
+              <entry>
+                <java-class>gameplayer.model.GamePlayData</java-class>
+                <list>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getGold</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getCurrentLevel</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>setWin</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getScore</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getLevelNumber</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getLife</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getTotalLevel</name>
+                    <parameter-types/>
+                  </method>
+                </list>
+              </entry>
+            </annotatedClassMethods>
+            <effectAccessibleData>
+              <field>
+                <name>foe</name>
+                <clazz>gameplayer.model.effect.CollisionEffectFactory</clazz>
+              </field>
+              <field>
+                <name>myself</name>
+                <clazz>gameplayer.model.effect.CollisionEffectFactory</clazz>
+              </field>
+              <field>
+                <name>collider</name>
+                <clazz>gameplayer.model.effect.CollisionEffectFactory</clazz>
+              </field>
+            </effectAccessibleData>
+            <activeClass class="engine.observer.ObservableObjectProperty">
+              <observers/>
+              <listeners/>
+            </activeClass>
+          </levelEffectManager>
+        </engine.level.LevelTypeManager>
+      </entry>
+      <entry>
+        <java-class>engine.settings.GameModeManager</java-class>
+        <engine.settings.GameModeTypeManager>
+          <observers>
+            <engine.ManagerTypeMediator reference="../../../../.."/>
+          </observers>
+          <data class="engine.observer.ObservableMapProperty">
+            <observers/>
+            <listeners>
+              <null/>
+            </listeners>
+            <property class="map">
+              <entry>
+                <int>0</int>
+                <engine.settings.GameModeType>
+                  <name class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">New Game (0)</property>
+                  </name>
+                  <imagePath class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">Images/greensquare.png</property>
+                  </imagePath>
+                  <size class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">1.0</property>
+                  </size>
+                  <sound class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="string">Music/DopeBeats.mp3</property>
+                  </sound>
+                  <id>0</id>
+                  <gameType class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="string">Normal</property>
+                  </gameType>
+                  <winningConditions class="engine.observer.ObservableListProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="list"/>
+                  </winningConditions>
+                  <losingConditions class="engine.observer.ObservableListProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="list"/>
+                  </losingConditions>
+                  <initialLives class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="int">1</property>
+                  </initialLives>
+                  <initialMoney class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="int">5000</property>
+                  </initialMoney>
+                  <pathType class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="engine.path.PathOption">SET</property>
+                  </pathType>
+                  <gridSize class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="int">10</property>
+                  </gridSize>
+                  <paths class="engine.observer.ObservableListProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="list"/>
+                  </paths>
+                </engine.settings.GameModeType>
+              </entry>
+            </property>
+          </data>
+          <gameModeEffectManager class="engine.effect.EffectTypeManager">
+            <observers>
+              <engine.ManagerTypeMediator reference="../../../../../.."/>
+            </observers>
+            <data class="engine.observer.ObservableMapProperty">
+              <observers/>
+              <listeners/>
+              <property class="map">
+                <entry>
+                  <int>0</int>
+                  <engine.effect.EffectType>
+                    <name class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="string">New Effect (0)</property>
+                    </name>
+                    <imagePath class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="string">Images/butterfly.png</property>
+                    </imagePath>
+                    <size class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="double">1.0</property>
+                    </size>
+                    <sound class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="string">Music/DopeBeats.mp3</property>
+                    </sound>
+                    <id>0</id>
+                    <triggerClass class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="string">engine.effect.Enemy</property>
+                    </triggerClass>
+                    <triggerConditionGroovy class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="string">data.getTotalLevel() + 1 == data.getCurrentLevel()</property>
+                    </triggerConditionGroovy>
+                    <effectGroovy class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="string">data.setWin()</property>
+                    </effectGroovy>
+                  </engine.effect.EffectType>
+                </entry>
+              </property>
+            </data>
+            <annotatedClassMethods>
+              <entry>
+                <java-class>gameplayer.model.enemy.Enemy</java-class>
+                <list>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getImage</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setHealth</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setImage</name>
+                    <parameter-types>
+                      <class>java.lang.String</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getHealth</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setxDirection</name>
+                    <parameter-types>
+                      <class>int</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getxDirection</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getY</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setyDirection</name>
+                    <parameter-types>
+                      <class>int</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getX</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getMovingSpeed</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getyDirection</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setMovingSpeed</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getCurrentCell</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getName</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setX</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setY</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                </list>
+              </entry>
+              <entry>
+                <java-class>gameplayer.model.GamePlayData</java-class>
+                <list>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getGold</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getCurrentLevel</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>setWin</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getScore</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getLevelNumber</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getLife</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getTotalLevel</name>
+                    <parameter-types/>
+                  </method>
+                </list>
+              </entry>
+            </annotatedClassMethods>
+            <effectAccessibleData>
+              <field>
+                <name>winTrigger</name>
+                <clazz>gameplayer.model.effect.WinEffectFactory</clazz>
+              </field>
+              <field>
+                <name>data</name>
+                <clazz>gameplayer.model.effect.WinEffectFactory</clazz>
+              </field>
+              <field>
+                <name>gamePlayData</name>
+                <clazz>gameplayer.model.effect.WinEffectFactory</clazz>
+              </field>
+            </effectAccessibleData>
+            <activeClass class="engine.observer.ObservableObjectProperty">
+              <observers/>
+              <listeners/>
+            </activeClass>
+          </gameModeEffectManager>
+        </engine.settings.GameModeTypeManager>
+      </entry>
+      <entry>
+        <java-class>engine.effect.EffectManager</java-class>
+        <engine.effect.EffectTypeManager reference="../../entry[2]/engine.level.LevelTypeManager/levelEffectManager"/>
+      </entry>
+      <entry>
+        <java-class>engine.weapon.WeaponManager</java-class>
+        <engine.weapon.WeaponTypeManager>
+          <observers>
+            <engine.ManagerTypeMediator reference="../../../../.."/>
+          </observers>
+          <data class="engine.observer.ObservableMapProperty">
+            <observers/>
+            <listeners>
+              <null/>
+            </listeners>
+            <property class="map">
+              <entry>
+                <int>0</int>
+                <engine.weapon.WeaponType>
+                  <name class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">New Weapon (0)</property>
+                  </name>
+                  <imagePath class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">Images/penguin.jpg</property>
+                  </imagePath>
+                  <size class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">1.0</property>
+                  </size>
+                  <sound class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="string">Music/DopeBeats.mp3</property>
+                  </sound>
+                  <id>0</id>
+                  <targets class="engine.observer.ObservableListProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="list"/>
+                  </targets>
+                  <reloadTime class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">15.0</property>
+                  </reloadTime>
+                  <trajectory class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">Straight</property>
+                  </trajectory>
+                  <effects class="engine.observer.ObservableListProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="list">
+                      <int>0</int>
+                      <int>1</int>
+                    </property>
+                  </effects>
+                  <speed class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">10.0</property>
+                  </speed>
+                  <range class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">50.0</property>
+                  </range>
+                </engine.weapon.WeaponType>
+              </entry>
+              <entry>
+                <int>1</int>
+                <engine.weapon.WeaponType>
+                  <name class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">New Weapon (1)</property>
+                  </name>
+                  <imagePath class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">Images/penguin.jpg</property>
+                  </imagePath>
+                  <size class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">1.0</property>
+                  </size>
+                  <sound class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="string">Music/DopeBeats.mp3</property>
+                  </sound>
+                  <id>1</id>
+                  <targets class="engine.observer.ObservableListProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="list" reference="../../../../entry/engine.weapon.WeaponType/targets/property"/>
+                  </targets>
+                  <reloadTime class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">15.0</property>
+                  </reloadTime>
+                  <trajectory class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">Straight</property>
+                  </trajectory>
+                  <effects class="engine.observer.ObservableListProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="list" reference="../../../../entry/engine.weapon.WeaponType/effects/property"/>
+                  </effects>
+                  <speed class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">10.0</property>
+                  </speed>
+                  <range class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">50.0</property>
+                  </range>
+                </engine.weapon.WeaponType>
+              </entry>
+            </property>
+          </data>
+          <weaponEffectManager class="engine.effect.EffectTypeManager">
+            <observers>
+              <engine.ManagerTypeMediator reference="../../../../../.."/>
+            </observers>
+            <data class="engine.observer.ObservableMapProperty">
+              <observers/>
+              <listeners/>
+              <property class="map">
+                <entry>
+                  <int>0</int>
+                  <engine.effect.EffectType>
+                    <name class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="string">New Effect (0)</property>
+                    </name>
+                    <imagePath class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="string">Images/butterfly.png</property>
+                    </imagePath>
+                    <size class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="double">1.0</property>
+                    </size>
+                    <sound class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="string">Music/DopeBeats.mp3</property>
+                    </sound>
+                    <id>0</id>
+                    <triggerClass class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="string">engine.effect.Enemy</property>
+                    </triggerClass>
+                    <triggerConditionGroovy class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="string">collider.getHealth() == 50</property>
+                    </triggerConditionGroovy>
+                    <effectGroovy class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="string">collider.setHealth(110)</property>
+                    </effectGroovy>
+                  </engine.effect.EffectType>
+                </entry>
+                <entry>
+                  <int>1</int>
+                  <engine.effect.EffectType>
+                    <name class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="string">New Effect (1)</property>
+                    </name>
+                    <imagePath class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="string">Images/butterfly.png</property>
+                    </imagePath>
+                    <size class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="double">1.0</property>
+                    </size>
+                    <sound class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="string">Music/DopeBeats.mp3</property>
+                    </sound>
+                    <id>1</id>
+                    <triggerClass class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="string">engine.effect.Enemy</property>
+                    </triggerClass>
+                    <triggerConditionGroovy class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="string">collider.getHealth() == 50</property>
+                    </triggerConditionGroovy>
+                    <effectGroovy class="engine.observer.ObservableObjectProperty">
+                      <observers/>
+                      <listeners/>
+                      <property class="string">collider.setHealth(110)</property>
+                    </effectGroovy>
+                  </engine.effect.EffectType>
+                </entry>
+              </property>
+            </data>
+            <annotatedClassMethods>
+              <entry>
+                <java-class>gameplayer.model.enemy.Enemy</java-class>
+                <list>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getImage</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setHealth</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setImage</name>
+                    <parameter-types>
+                      <class>java.lang.String</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getHealth</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setxDirection</name>
+                    <parameter-types>
+                      <class>int</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getxDirection</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getY</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setyDirection</name>
+                    <parameter-types>
+                      <class>int</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getX</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getMovingSpeed</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getyDirection</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setMovingSpeed</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getCurrentCell</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getName</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setX</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setY</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                </list>
+              </entry>
+              <entry>
+                <java-class>gameplayer.model.GamePlayData</java-class>
+                <list>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getGold</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getCurrentLevel</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>setWin</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getScore</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getLevelNumber</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getLife</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getTotalLevel</name>
+                    <parameter-types/>
+                  </method>
+                </list>
+              </entry>
+            </annotatedClassMethods>
+            <effectAccessibleData>
+              <field>
+                <name>foe</name>
+                <clazz>gameplayer.model.effect.CollisionEffectFactory</clazz>
+              </field>
+              <field>
+                <name>myself</name>
+                <clazz>gameplayer.model.effect.CollisionEffectFactory</clazz>
+              </field>
+              <field>
+                <name>collider</name>
+                <clazz>gameplayer.model.effect.CollisionEffectFactory</clazz>
+              </field>
+            </effectAccessibleData>
+            <activeClass class="engine.observer.ObservableObjectProperty">
+              <observers/>
+              <listeners/>
+            </activeClass>
+          </weaponEffectManager>
+        </engine.weapon.WeaponTypeManager>
+      </entry>
+      <entry>
+        <java-class>engine.enemy.EnemyManager</java-class>
+        <engine.enemy.EnemyTypeManager>
+          <observers>
+            <engine.ManagerTypeMediator reference="../../../../.."/>
+          </observers>
+          <data class="engine.observer.ObservableMapProperty">
+            <observers/>
+            <listeners>
+              <null/>
+            </listeners>
+            <property class="map">
+              <entry>
+                <int>0</int>
+                <engine.enemy.EnemyType>
+                  <name class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">New Enemy (0)</property>
+                  </name>
+                  <imagePath class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">Images/butterfly.png</property>
+                  </imagePath>
+                  <size class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">1.0</property>
+                  </size>
+                  <sound class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="string">Music/DopeBeats.mp3</property>
+                  </sound>
+                  <id>0</id>
+                  <speed class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">1.0</property>
+                  </speed>
+                  <health class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">10.0</property>
+                  </health>
+                  <damage class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">2.0</property>
+                  </damage>
+                  <score class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">10.0</property>
+                  </score>
+                  <money class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">20.0</property>
+                  </money>
+                  <collisionEffect class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="string"></property>
+                  </collisionEffect>
+                </engine.enemy.EnemyType>
+              </entry>
+              <entry>
+                <int>1</int>
+                <engine.enemy.EnemyType>
+                  <name class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">New Enemy (1)</property>
+                  </name>
+                  <imagePath class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">Images/butterfly.png</property>
+                  </imagePath>
+                  <size class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">1.0</property>
+                  </size>
+                  <sound class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="string">Music/DopeBeats.mp3</property>
+                  </sound>
+                  <id>1</id>
+                  <speed class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">1.0</property>
+                  </speed>
+                  <health class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">10.0</property>
+                  </health>
+                  <damage class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">2.0</property>
+                  </damage>
+                  <score class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">10.0</property>
+                  </score>
+                  <money class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">20.0</property>
+                  </money>
+                  <collisionEffect class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="string"></property>
+                  </collisionEffect>
+                </engine.enemy.EnemyType>
+              </entry>
+            </property>
+          </data>
+          <enemyEffectManager class="engine.effect.EffectTypeManager">
+            <observers>
+              <engine.ManagerTypeMediator reference="../../../../../.."/>
+            </observers>
+            <data class="engine.observer.ObservableMapProperty">
+              <observers/>
+              <listeners/>
+              <property class="map"/>
+            </data>
+            <annotatedClassMethods>
+              <entry>
+                <java-class>gameplayer.model.enemy.Enemy</java-class>
+                <list>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getImage</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setHealth</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setImage</name>
+                    <parameter-types>
+                      <class>java.lang.String</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getHealth</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setxDirection</name>
+                    <parameter-types>
+                      <class>int</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getxDirection</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getY</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setyDirection</name>
+                    <parameter-types>
+                      <class>int</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getX</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getMovingSpeed</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getyDirection</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setMovingSpeed</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getCurrentCell</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getName</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setX</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setY</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                </list>
+              </entry>
+              <entry>
+                <java-class>gameplayer.model.GamePlayData</java-class>
+                <list>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getGold</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getCurrentLevel</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>setWin</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getScore</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getLevelNumber</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getLife</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getTotalLevel</name>
+                    <parameter-types/>
+                  </method>
+                </list>
+              </entry>
+            </annotatedClassMethods>
+            <effectAccessibleData>
+              <field>
+                <name>foe</name>
+                <clazz>gameplayer.model.effect.CollisionEffectFactory</clazz>
+              </field>
+              <field>
+                <name>myself</name>
+                <clazz>gameplayer.model.effect.CollisionEffectFactory</clazz>
+              </field>
+              <field>
+                <name>collider</name>
+                <clazz>gameplayer.model.effect.CollisionEffectFactory</clazz>
+              </field>
+            </effectAccessibleData>
+            <activeClass class="engine.observer.ObservableObjectProperty">
+              <observers/>
+              <listeners/>
+            </activeClass>
+          </enemyEffectManager>
+        </engine.enemy.EnemyTypeManager>
+      </entry>
+      <entry>
+        <java-class>engine.tower.TowerManager</java-class>
+        <engine.tower.TowerTypeManager>
+          <observers>
+            <engine.ManagerTypeMediator reference="../../../../.."/>
+          </observers>
+          <data class="engine.observer.ObservableMapProperty">
+            <observers/>
+            <listeners>
+              <null/>
+            </listeners>
+            <property class="map">
+              <entry>
+                <int>0</int>
+                <engine.tower.TowerType>
+                  <name class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">New Tower (0)</property>
+                  </name>
+                  <imagePath class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">Images/tower.png</property>
+                  </imagePath>
+                  <size class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">1.0</property>
+                  </size>
+                  <sound class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="string">Music/DopeBeats.mp3</property>
+                  </sound>
+                  <id>0</id>
+                  <weapons class="engine.observer.ObservableListProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="list">
+                      <int>0</int>
+                    </property>
+                  </weapons>
+                  <abilities class="engine.observer.ObservableListProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="list"/>
+                  </abilities>
+                  <upgrades class="engine.observer.ObservableListProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="list"/>
+                  </upgrades>
+                  <cost class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">10.0</property>
+                  </cost>
+                  <sellAmount class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">5.0</property>
+                  </sellAmount>
+                  <unlockLevel class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="int">0</property>
+                  </unlockLevel>
+                </engine.tower.TowerType>
+              </entry>
+              <entry>
+                <int>1</int>
+                <engine.tower.TowerType>
+                  <name class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">New Tower (1)</property>
+                  </name>
+                  <imagePath class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="string">Images/tower.png</property>
+                  </imagePath>
+                  <size class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">1.0</property>
+                  </size>
+                  <sound class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners/>
+                    <property class="string">Music/DopeBeats.mp3</property>
+                  </sound>
+                  <id>1</id>
+                  <weapons class="engine.observer.ObservableListProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="list">
+                      <int>0</int>
+                    </property>
+                  </weapons>
+                  <abilities class="engine.observer.ObservableListProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="list"/>
+                  </abilities>
+                  <upgrades class="engine.observer.ObservableListProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="list">
+                      <int>1</int>
+                    </property>
+                  </upgrades>
+                  <cost class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">10.0</property>
+                  </cost>
+                  <sellAmount class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="double">5.0</property>
+                  </sellAmount>
+                  <unlockLevel class="engine.observer.ObservableObjectProperty">
+                    <observers/>
+                    <listeners>
+                      <null/>
+                    </listeners>
+                    <property class="int">0</property>
+                  </unlockLevel>
+                </engine.tower.TowerType>
+              </entry>
+            </property>
+          </data>
+          <upgrades>
+            <entry>
+              <int>1</int>
+              <engine.tower.TowerType>
+                <name class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="string">New Tower (1)</property>
+                </name>
+                <imagePath class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="string">Images/tower.png</property>
+                </imagePath>
+                <size class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">1.0</property>
+                </size>
+                <sound class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners/>
+                  <property class="string">Music/DopeBeats.mp3</property>
+                </sound>
+                <id>1</id>
+                <weapons class="engine.observer.ObservableListProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="list" reference="../../../../../data/property/entry[2]/engine.tower.TowerType/weapons/property"/>
+                </weapons>
+                <abilities class="engine.observer.ObservableListProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="list" reference="../../../../../data/property/entry[2]/engine.tower.TowerType/abilities/property"/>
+                </abilities>
+                <upgrades class="engine.observer.ObservableListProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="list" reference="../../../../../data/property/entry[2]/engine.tower.TowerType/upgrades/property"/>
+                </upgrades>
+                <cost class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">10.0</property>
+                </cost>
+                <sellAmount class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="double">5.0</property>
+                </sellAmount>
+                <unlockLevel class="engine.observer.ObservableObjectProperty">
+                  <observers/>
+                  <listeners>
+                    <null/>
+                  </listeners>
+                  <property class="int">0</property>
+                </unlockLevel>
+              </engine.tower.TowerType>
+            </entry>
+          </upgrades>
+          <abilityManager class="engine.effect.EffectTypeManager">
+            <observers>
+              <engine.ManagerTypeMediator reference="../../../../../.."/>
+            </observers>
+            <data class="engine.observer.ObservableMapProperty">
+              <observers/>
+              <listeners/>
+              <property class="map"/>
+            </data>
+            <annotatedClassMethods>
+              <entry>
+                <java-class>gameplayer.model.enemy.Enemy</java-class>
+                <list>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getImage</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setHealth</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setImage</name>
+                    <parameter-types>
+                      <class>java.lang.String</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getHealth</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setxDirection</name>
+                    <parameter-types>
+                      <class>int</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getxDirection</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getY</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setyDirection</name>
+                    <parameter-types>
+                      <class>int</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getX</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getMovingSpeed</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getyDirection</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setMovingSpeed</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getCurrentCell</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>getName</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setX</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.enemy.Enemy</class>
+                    <name>setY</name>
+                    <parameter-types>
+                      <class>double</class>
+                    </parameter-types>
+                  </method>
+                </list>
+              </entry>
+              <entry>
+                <java-class>gameplayer.model.GamePlayData</java-class>
+                <list>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getGold</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getCurrentLevel</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>setWin</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getScore</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getLevelNumber</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getLife</name>
+                    <parameter-types/>
+                  </method>
+                  <method>
+                    <class>gameplayer.model.GamePlayData</class>
+                    <name>getTotalLevel</name>
+                    <parameter-types/>
+                  </method>
+                </list>
+              </entry>
+            </annotatedClassMethods>
+            <effectAccessibleData>
+              <field>
+                <name>foe</name>
+                <clazz>gameplayer.model.effect.CollisionEffectFactory</clazz>
+              </field>
+              <field>
+                <name>myself</name>
+                <clazz>gameplayer.model.effect.CollisionEffectFactory</clazz>
+              </field>
+              <field>
+                <name>collider</name>
+                <clazz>gameplayer.model.effect.CollisionEffectFactory</clazz>
+              </field>
+            </effectAccessibleData>
+            <activeClass class="engine.observer.ObservableObjectProperty">
+              <observers/>
+              <listeners/>
+            </activeClass>
+          </abilityManager>
+        </engine.tower.TowerTypeManager>
+      </entry>
+      <entry>
+        <java-class>engine.ability.AbilityManager</java-class>
+        <engine.ability.AbilityTypeManager>
+          <observers>
+            <engine.ManagerTypeMediator reference="../../../../.."/>
+          </observers>
+          <data class="engine.observer.ObservableMapProperty">
+            <observers/>
+            <listeners/>
+            <property class="map"/>
+          </data>
+        </engine.ability.AbilityTypeManager>
+      </entry>
+    </allManagers>
+  </managerMediator>
+</engine.GameAuthoringData>
